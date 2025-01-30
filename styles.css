@@ -1,0 +1,103 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: .9;
+    text-align: center;
+
+}
+
+.Navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%vw;
+    max-height: 20%vw;
+    background-color: black;
+}
+
+.Container {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    gap: 20px;
+    margin-right: 10px;
+    
+    text-decoration: underline;
+}
+
+.Logo {
+    height: 10%;
+    width: auto;
+    margin: 1% 0px 1% 1%;
+}
+
+.Hero {
+    margin: 0px auto;
+    max-height: 700px;
+    max-width: 1200px;
+}
+
+h2, h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.Mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 500px;
+    left: 0;
+}
+
+.Gallery {
+
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto;
+   
+}
+.Images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+figure {
+    margin: 5px;
+    align-items: center;
+}
+
+.Locations {
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+ background-image: url('img-locations-background.webp') ;
+}
+
+.Downtown, .EastBayside, .Oakdale {
+    background-color: black;
+    width: 300px;
+    margin: 15px 40px 15px 40px;
+    line-height: 2em;
+}
+
+.Contact {
+    margin-top: 20px;
+    height: 200px;
+    line-height: 1.1em;
+}
+
+.Footer {
+    width: 100%vw;
+    margin-left: 20px;
+    text-align: left;
+}
